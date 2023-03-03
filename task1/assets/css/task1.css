@@ -1,0 +1,53 @@
+.heading{
+    margin-left: 5%;    
+    margin-top: 10%;
+}
+.heading span{
+    font-size: 30px;
+    margin-right: 3%;
+    color: #00415C;
+}
+.heading button{
+    background-color: transparent;
+    border: none;
+    font-size: 36px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+.carousel{
+    margin-left: 4.5%;
+    margin-top: 2%;
+}
+.cards{
+    display: flex;
+    transition: all 0.5s;
+}
+.card{
+    margin-right: 30px; 
+    transition: all 0.5s;
+    opacity: 0;
+}
+.card img{
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+}
+.card p{
+    font-size: 20px;
+    color: #00415C;
+}
+.card span{
+    color: #00415C;
+}
+.show{
+    opacity: 1;
+}
+.left{
+    color: #00415C;
+    opacity: 0.5;
+    margin-right: 15px;
+}
+.right{
+    color: #00415C;
+}
