@@ -41,7 +41,14 @@ img{
     transition: all 1s;
     position: relative;
     z-index: 2;
-    border-radius: 20px;
+}
+.leftside{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.rightside{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 i{
     color: white;
@@ -64,11 +71,16 @@ i{
     width: 30px;
     height: 3px;
     background-color: white;
-    border-radius: 15px;
+    opacity: 0.1;
     margin-top: auto;
     margin-bottom: 20px;
-    cursor: pointer
+    cursor: pointer;
+    transition: all 3s;
+    border-radius: 15px;
 }
 .show{
+    opacity: 1;
+}
+.opa{
     opacity: 1;
 }
